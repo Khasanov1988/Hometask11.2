@@ -8,9 +8,9 @@ def to_upper(text: str):
 
 
 def to_title(text: str):
-    """
+    '''
     Функция переводит первую букву в верхний регистр
     :param text:
     :return:
-    """
+    '''
     return text.title()
