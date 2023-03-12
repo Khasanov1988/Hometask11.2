@@ -1,5 +1,16 @@
 def to_upper(text: str):
-    '''
-    function cnange text to upper registr
-    '''
+    """
+    Функция переводит все в верхний регистр
+    :param text:
+    :return:
+    """
     return text.upper()
+
+
+def to_title(text: str):
+    '''
+    Функция переводит первую букву в верхний регистр
+    :param text:
+    :return:
+    '''
+    return text.title()
